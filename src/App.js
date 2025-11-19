@@ -263,7 +263,6 @@ const Cropper = ({ imageSrc, onCancel, onApply }) => {
 
 
 const App = () => {
-  const [uploadedFile, setUploadedFile] = useState(null);
   const [originalBase64, setOriginalBase64] = useState(null); 
   const [base64Image, setBase64Image] = useState(null); 
   const [generatedImageUrl, setGeneratedImageUrl] = useState(null); 
@@ -303,7 +302,6 @@ const App = () => {
   const handleFileUpload = (e) => {
     const file = e.target.files[0];
     if (file && file.type.startsWith('image/')) {
-        setUploadedFile(file);
         const reader = new FileReader();
         reader.onload = (evt) => {
             setBase64Image(evt.target.result);
