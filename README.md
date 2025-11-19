@@ -2,8 +2,7 @@
 
 This is a fast, secure, single-page web application built with **React** and the **HTML5 Canvas API**. It allows users to perform advanced color adjustments, apply filters, and crop/rotate images entirely in the browser, ensuring zero server-side data transfer and complete privacy.
 
-**🌐 Live Demo:** **[View the Editor Here!](https://simonnchong.github.io/image_editor/)** *(Click this link after your GitHub Pages status is active)*
-
+**🌐 Live Demo:** **[View the Editor Here!](https://simonnchong.github.io/image_editor/)**
 ---
 
 ## 😘Example
